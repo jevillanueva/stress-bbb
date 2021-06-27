@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   app:
-    image: test-bbb_app:latest
+    image: stress-bbb_app:latest
     env_file:
       - .env
     deploy:
