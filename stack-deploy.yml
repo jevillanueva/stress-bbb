@@ -8,4 +8,4 @@ services:
     deploy:
       replicas: 15
     restart_policy:
-        condition: no
+        condition: none

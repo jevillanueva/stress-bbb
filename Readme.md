@@ -15,3 +15,11 @@ $ docker-compose up
 ```
 $ docker stack deploy -c stack-deploy.yml stress
 ```
+5. Logs Service
+```
+$ docker service logs -f stress_app
+```
+6. Delete Stack
+```
+$ docker stack rm stress
+```
